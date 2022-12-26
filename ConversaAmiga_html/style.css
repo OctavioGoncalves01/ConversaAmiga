@@ -1,0 +1,251 @@
+*{
+    margin: 00px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+/*cores
+ #002E44 
+ #69F8B3
+ #3BC281
+ */
+
+.cabecalho{
+    margin: 10px;
+    background-color: #002E44;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+   
+}
+
+.logo_cab{
+    padding: 30px;
+    
+}
+
+.logo_png{
+    height: 100px;
+}
+
+.nome_projeto_png{
+    width: 700px;
+    padding: 15px;
+    
+}
+
+.principal{
+    margin-top: 25px;
+    border-top: 3.0px dashed  #3BC281;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.primeira_sec{
+    margin: 25px;
+    background-color: #3BC281;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 200px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.botao_menu:hover{
+    background-color: #69F8B3;
+}
+.botao_menu{
+    background-color: white;
+    width: 140px;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Vibur', cursiva;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.segunda_sec{
+    border-top: 3.0px dashed  #3BC281;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 25px;
+    justify-items: center;    
+
+}
+
+.segunda_sec_nome_projeto{
+    background-color: #002E44;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 25px;
+    border-radius: 10px;
+    
+}
+
+.nome_projeto{
+    font-family: 'Coming Soon', cursiva;
+    font-weight: 400;
+    font-size: 42px;
+    color: #69F8B3;
+    margin: 25px;
+    
+    
+}
+
+.segunda_pri_his_projeto{
+    border-top: 3.0px dashed  #3BC281;
+    display: flexbox;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.segunda_sec_his_projeto{
+    border-top: 3.0px dashed  #3BC281;
+    display: flexbox;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.historia_projeto_cab{
+    background-color: #002E44;
+    font-family: 'Coming Soon', cursiva;
+    font-weight: 400;
+    color: #00b95f;
+    font-size: 36px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    justify-items: center; 
+}
+
+.historia_projeto{
+    background-color:#00b95f;
+    font-family: 'Coming Soon', cursiva;
+    font-weight: 400;
+    color:#002E44;
+    font-size: 24px;
+    padding: 10px;
+    
+}
+
+.segunda_pri_pal_projeto{
+    background-color: #002E44;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+.palavras_projeto_cab{
+
+    font-family: 'Coming Soon', cursiva;
+    font-weight: 400;
+    color:#69F8B3 ;
+    font-size: 32px;
+   
+}
+
+.pp{
+    
+    margin: 10px;
+}
+
+.palavras_projeto{
+    
+    font-family: 'Coming Soon', cursiva;
+    font-weight: 400;
+    color:#3BC281 ;
+    font-size: 48px;
+    gap: 20px;
+}
+
+.terceira_sec{
+    background-color: #00b95f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 60px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.formulario{
+    background-color: #001e2c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 15px;
+    border-radius: 30px;
+}
+
+.palavras_cadastro{
+    font-family: 'Coming Soon', cursiva;
+    font-weight: 400;
+    font-size: 64px;
+    color: #002E44;
+    margin: 10px;
+}
+
+input{
+    width: 350px;
+    height: 25px;
+    border-radius: 30px;
+    padding: 15px;
+    gap: 10px;
+    color: #001e2c;
+}
+
+button{
+    width: 125px;
+    height: 25px;
+    border-radius: 30px;
+    padding: 0 10px 0 10px 0;
+    background-color: #3BC281;
+    
+}
+
+.rodape{
+    margin: 10px;
+    border-top: 3.0px dashed #3BC281;
+    margin-top: 70px;
+}
+
+.roda_pe_fundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: #001e2c;       
+}
+
+.txt_rodape{
+    color: beige;
+}
+
+.rodape_projeto_creditos{
+    font-size: 12px;
+}
+
+.rodape_projeto_nomes{
+    font-size: 10px;
+    margin: 10px;
+}
